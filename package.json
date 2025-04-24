@@ -1,0 +1,44 @@
+{
+  "name": "routil_static",
+  "version": "0.0.1",
+  "description": "Serve static files",
+  "keywords": [],
+  "author": "drylikov <denis.rylikov@protonmail.com>",
+  "repository": "git://github.com/drylikov/routil-static.git",
+  "main": "index",
+  "homepage": "https://github.com/drylikov/routil-static",
+  "contributors": [
+    {
+      "name": "Denis Rylikov"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/drylikov/routil-static/issues",
+    "email": "denis.rylikov@protonmail.com"
+  },
+  "dependencies": {
+    "glob": "~3.1.10",
+    "xtend": "~1.0.3",
+    "filed": "0.0.6",
+    "routil": "0.0.13"
+  },
+  "devDependencies": {
+    "testling": "git://github.com/drylikov/testling#master",
+    "testem": "git://github.com/drylikov/testem#master",
+    "sinon": "git://github.com/drylikov/Sinon.JS.git",
+    "tap": "0.2.5",
+    "routes": "~0.1.1",
+    "stylus": "~0.28.1",
+    "nib": "~0.7.0",
+    "test-server": "0.0.1"
+  },
+  "licenses": [
+    {
+      "type": "",
+      "url": ""
+    }
+  ],
+  "scripts": {
+    "test": "make node-test"
+  }
+}
